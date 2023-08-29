@@ -90,7 +90,6 @@ func main(){
 	}
 	x, sx := check(elem[0])
 	y, sy := check(elem[2])
-	fmt.Println(sx, sy)
 
 	if sx == sy && sx == 1 && check_operation(elem[1], x, y) != 10000 {		
 		fmt.Println(check_operation(elem[1], x, y))
